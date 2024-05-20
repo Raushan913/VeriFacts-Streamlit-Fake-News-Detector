@@ -26,7 +26,7 @@ To use VeriFacts, follow these steps:
 3. Install the required dependencies listed in `requirements.txt`.
 
    ```bash
-    pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Run the Streamlit app using the command `streamlit run app.py`.
 
