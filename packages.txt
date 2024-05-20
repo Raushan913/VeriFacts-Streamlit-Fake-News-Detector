@@ -1,5 +1,0 @@
-joblib
-streamlit==1.14.0
-scikit-learn==1.2.2
-freeglut3-dev
-libgtk2.0-dev
