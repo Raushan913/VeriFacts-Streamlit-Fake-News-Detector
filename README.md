@@ -1,0 +1,1 @@
+# VeriFacts-Streamlit-Fake-News-Detector
