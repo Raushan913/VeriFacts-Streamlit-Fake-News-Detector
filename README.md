@@ -11,7 +11,7 @@ To use VeriFacts, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/your-username/verifacts.git
+git clone https://https://github.com/Raushan913/verifacts.git
 
 Navigate to the project directory:
 
@@ -19,7 +19,7 @@ cd verifacts
 
 Install the required dependencies:
 
-  pip install -r requirements.txt
+pip install -r requirements.txt
 
 Run the Streamlit app:
 
