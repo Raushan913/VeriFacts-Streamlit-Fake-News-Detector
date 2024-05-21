@@ -18,24 +18,20 @@ To use VeriFacts, follow these steps:
    ```bash
    git clone https://github.com/your-username/verifacts.git
 
-2. Navigate to the project directory.
 
-   ```bash
-   cd verifacts
-
-3. Install the required dependencies listed in `requirements.txt`.
+2. Install the required dependencies listed in `requirements.txt`.
 
    ```bash
    pip install --no-cache-dir -r requirements.txt
 
-4. Run the Streamlit app using the command `streamlit run app.py`.
+3. Run the Streamlit app using the command `streamlit run app.py`.
 
    ```bash
    streamlit run app.py
 
-5. Open your web browser and go to the URL provided by Streamlit (typically `http://localhost:8501`).
+4. Open your web browser and go to the URL provided by Streamlit (typically `http://localhost:8501`).
 
-6. Enter a news headline in the text area and click the "Predict" button to see the prediction.
+5. Enter a news headline in the text area and click the "Predict" button to see the prediction.
 
 ## Example Predictions
 

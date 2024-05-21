@@ -1,10 +1,17 @@
+'''
+
+The file provides an interactive web interface built with Streamlit,
+allowing users to input news headlines and instantly receive predictions 
+on their authenticity.
+
+'''
+
 import streamlit as st
 import joblib
-import numpy as np
 
 # Load the saved model and CountVectorizer
-model = joblib.load('multinomial_nb_model.pkl')
-cv = joblib.load('count_vectorizer.pkl')
+model = joblib.load('model/multinomial_nb_model.pkl')
+cv = joblib.load('model/count_vectorizer.pkl')
 
 # Define the prediction function
 def predict(text):
@@ -12,13 +19,10 @@ def predict(text):
     prediction = model.predict(data)
     return prediction[0]
 
-# Streamlit app
 st.title("Fake News Detection")
 
-# Text input
 user_input = st.text_area("Enter the news title")
 
-# Predict button
 if st.button("Predict"):
     result = predict(user_input)
     st.write(f"The news is: {result}")
