@@ -4,8 +4,8 @@ import numpy as np
 import os
 
 # Define the file paths
-model_path = 'D:\Github\Streamlit Fake news detection\multinomial_nb_model.pkl'
-vectorizer_path = 'D:\Github\Streamlit Fake news detection\count_vectorizer.pkl'
+model_path = '..\VeriFacts-Streamlit-Fake-News-Detector\model\multinomial_nb_model.pkl'
+vectorizer_path = '..\VeriFacts-Streamlit-Fake-News-Detector\model\count_vectorizer.pkl'
 
 # Check if files exist
 if not os.path.exists(model_path) or not os.path.exists(vectorizer_path):
