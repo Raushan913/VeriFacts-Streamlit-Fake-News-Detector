@@ -1,3 +1,13 @@
+'''
+This is a Streamlit app that allows users to upload a machine learning model and CountVectorizer saved as pickle files. 
+It then uses these files to predict whether a given news title is fake or real. Users can enter a news title in 
+a text area, and upon clicking the "Predict" button, the app displays the prediction result. The app handles file 
+uploads dynamically, ensuring the necessary files are loaded for making predictions.
+
+'''
+
+
+
 import streamlit as st
 import pickle
 import numpy as np
