@@ -40,10 +40,10 @@ To use VeriFacts, follow these steps:
 ## Example Predictions
 
 - **Headline**: "Iranian President Ebrahim Raisi Dies In Chopper Crash: Iran Media"
-  - **Prediction**: Fake
+  - **Prediction**: Real
 
 - **Headline**: "Ginger Is 10,000x More Effective Than Chemotherapy"
-  - **Prediction**: Real
+  - **Prediction**: Fake
 
 ## Dataset
 The dataset used for training and evaluating the model is available in the dataset directory. It contains labeled news headlines indicating whether they are fake or real.
